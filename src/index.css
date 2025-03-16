@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  overflow: hidden;
+}
+main{
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+button {
+  /* border: none; */
+  padding: 5px 15px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: inherit;
+  color: inherit;
+}
+button:active {
+  /* border: none; */
+  border: 2px solid rgb(194, 192, 192);
+  padding: 5px 15px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: inherit;
+  color: inherit;
+}
+
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #ccc;
+  padding: 8px;
+  outline: none;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+}
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --text-color: #333;
+}
+
